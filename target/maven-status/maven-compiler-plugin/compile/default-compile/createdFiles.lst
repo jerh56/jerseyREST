@@ -1,0 +1,7 @@
+com\coppel\entities\Users.class
+com\coppel\jersey\UsersService.class
+com\coppel\jersey\Main.class
+com\coppel\filters\SSOFilter.class
+com\coppel\filters\CorsFilter.class
+com\coppel\controllers\UsersController.class
+com\coppel\models\UsersModel.class
