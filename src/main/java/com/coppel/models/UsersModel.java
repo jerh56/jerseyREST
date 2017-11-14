@@ -33,7 +33,7 @@ public class UsersModel {
     
     private Connection getSource() throws ClassNotFoundException, SQLException {
         Class.forName("org.postgresql.Driver");
-        return DriverManager.getConnection("jdbc:postgresql://localhost:5432/empleados", "postgres", "123456");
+        return DriverManager.getConnection("jdbc:postgresql://tomcatdev.centralus.cloudapp.azure.com:5432/empleados", "postgres", "db2017");
     }
     
     public List<Users> show(String userName) throws ClassNotFoundException, SQLException {
